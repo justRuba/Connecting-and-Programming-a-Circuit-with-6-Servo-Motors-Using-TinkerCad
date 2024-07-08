@@ -69,3 +69,9 @@ void loop() {
   delay(2000); // Delay before repeating the sequence
 }
 ```
+
+## Step 5: Run the Simulation
+
+After running the operation, it will look like this.
+
+![90 degree](https://github.com/justRuba/Connecting-and-Programming-a-Circuit-with-6-Servo-Motors-Using-TinkerCad/assets/134620937/37a7637c-d803-43a0-94ec-42e56644f30b)
