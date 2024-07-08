@@ -22,3 +22,50 @@ Reference for image: [Servo Motor Circuit Diagram](https://www.makerguides.com/s
 - Ensure all connections are secure and correctly placed
 
 ![Our Sex Servo](https://github.com/justRuba/Connecting-and-Programming-a-Circuit-with-6-Servo-Motors-Using-TinkerCad/assets/134620937/d745c49b-a42a-44f2-9240-7bafa32a873f)
+
+## Step 4: Program the Servo Motors
+
+To control the servo motors and specify their movements, follow these steps to upload and execute the code on the Arduino in TinkerCad:
+
+The following Arduino code snippet demonstrates how to control six servo motors sequentially. Each servo motor is connected to a specific pin on the Arduino, as configured in the setup() function using servo.attach(). The loop() function then commands each servo to move smoothly from 0 to 90 degrees and back using a for loop and servo.write() function calls. Adjust the delay() intervals to modify the speed and smoothness of the servo movements
+
+```cpp
+#include <Servo.h>
+
+Servo servoA, servoB, servoC, servoD, servoE, servoF;
+
+void setup() {
+  servoA.attach(13);
+  servoB.attach(12);
+  servoC.attach(11);
+  servoD.attach(10);
+  servoE.attach(8);
+  servoF.attach(7);
+}
+
+void loop() {
+  // Sweep servos from 0 to 90 degrees
+  for (int pos = 0; pos <= 90; pos += 1) {
+    servoA.write(pos);
+    servoB.write(pos);
+    servoC.write(pos);
+    servoD.write(pos);
+    servoE.write(pos);
+    servoF.write(pos);
+    delay(15); // Adjust delay for smoother motion
+  }
+
+  // Sweep servos from 90 to 0 degrees
+  for (int pos = 90; pos >= 0; pos -= 1) {
+    servoA.write(pos);
+    servoB.write(pos);
+    servoC.write(pos);
+    servoD.write(pos);
+    servoE.write(pos);
+    servoF.write(pos);
+    delay(15); // Adjust delay for smoother motion
+  }
+
+  delay(2000); // Delay before repeating the sequence
+}
+```
