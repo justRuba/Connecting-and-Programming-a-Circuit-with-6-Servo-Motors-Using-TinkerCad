@@ -16,3 +16,9 @@ This diagram illustrates how to connect a servo motor to an Arduino, specifying 
 Reference for image: [Servo Motor Circuit Diagram](https://www.makerguides.com/servo-arduino-tutorial/)
 *Example circuit diagram for connecting a servo motor.*
 
+## Step 3: Connect Servo Motors
+
+- Connect the power, ground, and signal wires of each servo motor to the appropriate pins on the Arduino
+- Ensure all connections are secure and correctly placed
+
+![Our Sex Servo](https://github.com/justRuba/Connecting-and-Programming-a-Circuit-with-6-Servo-Motors-Using-TinkerCad/assets/134620937/d745c49b-a42a-44f2-9240-7bafa32a873f)
