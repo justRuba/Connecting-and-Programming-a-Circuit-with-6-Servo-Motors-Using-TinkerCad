@@ -1,10 +1,3 @@
-```html
-<style>
-.image-container {
-    width: 500px;
-    height: auto; /* Ensure images maintain aspect ratio */
-}
-</style>
 
 # Connecting-and-Programming-a-Circuit-with-6-Servo-Motors-Using-TinkerCad
 This project demonstrates connecting and programming a circuit with 6 servo motors using TinkerCad. It covers setting up the circuit, connecting the servo motors, and writing the code to control their movements.
@@ -83,3 +76,7 @@ void loop() {
 After running the operation, it will look like this.
 
 ![90 degree](https://github.com/justRuba/Connecting-and-Programming-a-Circuit-with-6-Servo-Motors-Using-TinkerCad/assets/134620937/37a7637c-d803-43a0-94ec-42e56644f30b)
+
+
+
+[Check out my video](https://youtu.be/lBu0XGwhKgw) to learn step-by-step how to connect a circuit with 6 servo motors using TinkerCad.
